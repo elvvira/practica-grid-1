@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+    color: hsl(0, 0%, 81%);
+    font-family: 'Kanit', sans-serif;
+    font-size: 13px;
+}
+.contenedor {
+    
+    width: 1200px;
+    height: 700px;
+    margin-right: auto;margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:25% 25% 25% 25% ;
+    grid-template-rows: 320px 300px;
+    gap: 20px;
+    position: relative;
+}
+img {
+    width: 40px;
+    border-radius: 30px;
+}
+
+.caja {
+    border-radius: 10px;
+    padding: 33px;
+}
+
+.caja-morada {
+    background-color: hsl(263, 55%, 52%);
+    grid-column: 1/3;
+    position: relative;
+    background-image: url(..//assets/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:400px 20px;
+   
+
+}
+.caja-gris {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.caja-blanca-larga {
+    background-color: white;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.caja-blanca {
+    background-color: white;
+    grid-column: 1/2;
+}
+.caja-negra {
+    background-color: hsl(219, 29%, 14%);
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.comillas {
+    width: 130px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+.cabecera-caja {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+
+.box-autor{
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 1
+    ;
+}
+.nombre,
+.nombre-negro {
+    position: absolute;
+    top: -10px;
+    color: white;
+}
+.nombre-negro{
+    color: black
+}
+.trabajo,
+.trabajo-negro {
+    position: absolute;
+    top: 9px;
+    font-size: 0.7rem;
+}
+.trabajo-negro {
+    color: gray;
+}
+.titular,
+.titular-negro{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+}
+.titular-negro {
+    color: black;
+    opacity: 70%;
+}
+.texto-negro {
+    color: black;
+    opacity: 50%;
+}
+
+
